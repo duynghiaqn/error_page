@@ -43,10 +43,8 @@ var loop1,loop2,loop3,time=30,i=0,number,selector3=document.querySelector('.thir
 </script>
   <!-- Error Digital -->
 <br><br>
-<center><a href="javascript:gohome();" role="button" class="btn btn-outline-primary btn-lg"><i class="fas fa-home"></i> Home Page</a></center>
-<script type="text/javascript">
-function gohome(){window.location = window.location.host}
-</script>
+<center><button onclick="goBack();" role="button" class="btn btn-outline-primary btn-lg"><i class="fas fa-home"></i> Home Page</button></center>
+<script>function goBack() {window.history.go(-1)}</script>
 </body>
 
 </html>
